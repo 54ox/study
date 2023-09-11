@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自我介绍</title>
+    <!-- <embed src="5.mp3" hidden="false" autostart="true" loop="true"> -->
+</head>
+<style>
+    h1 {text-align: center; color:black;}
+    h3 {text-align: center;}
+    video#bgvideo {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -100;
+            background-size: cover;
+            background-position: center;
+            overflow: hidden;
+    }
+    body {
+        position: relative;
+        z-index: 1;
+    }
+    
+</style>
+<body background="0.mp4">
+    <h1>姓名：欧旭</h1>
+    <h3>班级：217<br>
+    学号：21104010709<br>
+    电话：13708296202<br>
+    照片：</h3>
+    <div style="text-align: center;">
+<img src="3.jpg"  width="230" height="230" />
+
+    </div>
+    <video id="bgvideo" preload="metadata" autoplay loop muted>
+        <source src="0.mp4" type="video/mp4">
+    </video>
+    <!-- <audio autoplay="autoplay" controls="controls"  preload="auto" src="5.mp3"></audio> -->
+    <bgsound src="5.bgm" loop="infinite"></bgsound>
+</body>
+</html>
